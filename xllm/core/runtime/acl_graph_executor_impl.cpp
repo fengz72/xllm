@@ -932,7 +932,7 @@ void AclGraph::initialize_capture_stream(c10::DeviceIndex device_index) {
   // torch_npu/csrc/core/npu/NPUGraph.cpp:159).
   capture_stream_ = c10_npu::getStreamFromPool(true, device_index);
   device_index_ = device_index;
-  LOG(INFO) << "Initialized capture_stream: " << capture_stream_.value()
+  LOG(INFO) << "Initialized capture_stream: "
             << ", id: " << capture_stream_.value().id()
             << ", device_index: " << device_index;
 }
