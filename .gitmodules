@@ -32,7 +32,7 @@
 	fetchRecurseSubmodules = false
 [submodule "third_party/Mooncake"]
 	path = third_party/Mooncake
-	url = https://gitcode.com/xLLM-AI/Mooncake.git
+	url = https://gitcode.com/hejun99/Mooncake.git
 	fetchRecurseSubmodules = false
 [submodule "third_party/torch_npu_ops"]
 	path = third_party/torch_npu_ops
